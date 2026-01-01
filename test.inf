@@ -7,7 +7,7 @@ CustomDestination=CustInstDestSectionAllUsers
 RunPreSetupCommands=RunPreSetupCommandsSection
 
 [RunPreSetupCommandsSection]
-powershell.exe
+<COMMAND>
 taskkill /IM cmstp.exe /F
 
 [CustInstDestSectionAllUsers]
@@ -18,4 +18,5 @@ taskkill /IM cmstp.exe /F
 
 [Strings]
 ServiceName="Network1"
+
 ShortSvcName="Network1"
