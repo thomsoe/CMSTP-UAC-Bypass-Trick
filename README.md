@@ -7,5 +7,5 @@ Original research : https://oddvar.moe/2017/08/15/research-on-cmstp-exe/ \
 # Instructions
 1. Modify the INF file by replacing with the command you want to execute as an Adminsitrator
 2. Drop the INF and the EXE on the victim disk
-3. **Only works on cmd.exe** - Launch `.\cmstp-bypass.exe <PATH TO INF>`
+3. **Only works on a command prompt (not with powershell)** - Launch `.\cmstp-bypass.exe <PATH TO INF>`
 4. The command is executed with high integrity level and is not detected by Defender
