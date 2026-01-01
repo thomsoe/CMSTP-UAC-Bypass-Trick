@@ -1,6 +1,6 @@
 # CMSTP-UAC-Bypass-Trick
 Here is a simple trick to make the UAC Bypass method with CMSTP evade Windows Defender.\
-All the PoCs for this UAC bypass are now detected (January 2026), here how to simply bypass UAC with CMSTP on Windows 11 25H2 with Defender enabled.
+All the original PoCs for the CMSTP UAC bypass are now detected (January 2026), here how to make it work on Windows 11 25H2 with Defender enabled.
 
 # Instructions
 1. Modify the INF file by replacing with the command you want to execute as an Adminsitrator
